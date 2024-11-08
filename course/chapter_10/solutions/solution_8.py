@@ -1,0 +1,15 @@
+firstSrt = input()
+firstSet = firstSrt.split()
+firstSet = set(firstSet)
+secondSrt = input()
+secondSet = secondSrt.split()
+secondSet = set(secondSet)
+thirdSrt = input()
+thirdSet = thirdSrt.split()
+thirdSet = set(thirdSet)
+sdf = set.intersection(firstSet, secondSet, thirdSet)
+sdf = list(sdf)
+sdf.sort()
+print(*sdf)
+
+
