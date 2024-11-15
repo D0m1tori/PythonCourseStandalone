@@ -8,11 +8,14 @@ for i in range(len(a)):
 for i in range(len(a)):
     myDict[a[i]] = n - a[i]
 for i,j in myDict.items():
-    if(j in myDict.keys()):
+    if(i in myDict.values()):
         lst.append(i)
         lst.append(j)
         break
 lst = tuple(lst)
-print(lst)
+if(lst):
+    print(lst)
+else:
+    print(n)
 
 
