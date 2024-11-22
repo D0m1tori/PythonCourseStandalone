@@ -113,8 +113,8 @@ class TestChapter11ex07:
 
 
 class TestChapter11ex08:
-    @pytest.mark.solution_runner(("Толстой Лев: Анна Каренина, Война и Мир\n",
-                                  "Лондон Джек: Мартин Иден, Аляска Кид\n",
+    @pytest.mark.solution_runner(("Толстой Лев: Анна Каренина, Война и Мир",
+                                  "Лондон Джек: Мартин Иден, Аляска Кид",
                                   "Толстой Лев: Воскресение\n"), 0.1)
     def test_solution_8_output_1(self, solution_runner):
         solution_out = solution_runner
