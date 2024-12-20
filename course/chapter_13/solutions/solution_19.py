@@ -1,0 +1,5 @@
+b = input()
+b = b.split()
+c = list(filter(lambda x: x[0]== "a",b))
+c = sorted(c)
+print(c)
